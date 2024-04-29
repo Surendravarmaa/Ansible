@@ -4,7 +4,7 @@
   tasks:
   - name: install nginx
     ansible.builtin.dnf:
-      name: nginxs
+      name: nginx
       state: installed
   - name: started nginx
     ansible.builtin.service:
