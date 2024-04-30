@@ -1,6 +1,5 @@
 - name: inventory variables
   hosts: localhost
-  vars:
   tasks:
     - name: To retrieve the variables
       ansible.builtin.debug:
