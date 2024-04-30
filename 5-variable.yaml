@@ -1,0 +1,8 @@
+- name: DevOps with AWS
+  hosts: localhost
+  vars_files:
+    - vars.yaml
+  tasks:
+    - name: To print the information
+    ansible.builtin.debug:
+      msg: "Learing {{course}} with {{tech}}"
