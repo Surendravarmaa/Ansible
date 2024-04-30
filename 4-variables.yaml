@@ -10,8 +10,8 @@
       Course: "Devops"
       Trainer: "Vivek"
     ansible.builtin.debug:
-      msg: "Hi, I am learining {{Course}}, and the tariner is {{Trainer}} course duration is {{Duration}}"
+      msg: "Hi, I am learining {{Course}}, and the trainer is {{Trainer}} course duration is {{Duration}}"
 
   - name: To print information
     ansible.builtin.debug:
-      msg: "Hi, I am learining {{Course}}, and the tariner is {{Trainer}} course duration is {{Duration}}"
+      msg: "Hi, I am learining {{Course}}, and the trainer is {{Trainer}} course duration is {{Duration}}"
