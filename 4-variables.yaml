@@ -1,12 +1,12 @@
 - name: variables
   hosts: localhost
-  vars: 
+  vari: 
     Course: "Ansible"
     Trainer: "Sivakumar"
     Duration: "3months"
   tasks:
   - name: To print information
-    vars:
+    vari:
       Course: "Devops"
       Trainer: "Vivek"
       Duration: "1-month"
