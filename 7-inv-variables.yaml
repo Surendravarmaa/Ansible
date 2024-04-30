@@ -4,4 +4,4 @@
   tasks:
     - name: To retrieve the variables
       ansible.builtin.debug:
-      msg: "i am learining {{course}}  trainer is {{trainer}} and course duration is {{duration}}"
+        msg: "i am learining {{course}}  trainer is {{trainer}} and course duration is {{duration}}"
