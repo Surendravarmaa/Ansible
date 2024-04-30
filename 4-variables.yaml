@@ -9,7 +9,7 @@
     vars:
       Course: "Devops"
       Trainer: "Vivek"
-      Dureation: "1-month"
+      Duration: "1-month"
     ansible.builtin.debug:
       msg: "Hi, I am learining {{Course}}, and the tariner is {{Trainer}} course duration is {{Duration}}"
 
