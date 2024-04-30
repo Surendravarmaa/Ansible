@@ -9,10 +9,10 @@
     vars:
       Course: "Devops"
       Trainer: "Vivek"
+      Dureation: "1-month"
     ansible.builtin.debug:
-    msg: "Hi, I am learining {{COurse}}, and the tariner is {{Trainer}} course duration is {{Duration}}"
+      msg: "Hi, I am learining {{COurse}}, and the tariner is {{Trainer}} course duration is {{Duration}}"
 
-  tasks:
-  - name: To print information
+  - name: To print informatio
     ansible.builtin.debug:
-    msg: "Hi, I am learining {{COurse}}, and the tariner is {{Trainer}} course duration is {{Duration}}"
+      msg: "Hi, I am learining {{COurse}}, and the tariner is {{Trainer}} course duration is {{Duration}}"
