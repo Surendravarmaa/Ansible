@@ -2,5 +2,5 @@
   hosts: localhost
   tasks:
   - name: To print the arguments
-  ansible.builtin.debug:
-    msg: "Hi {{person}}, {{wishes}}" 
+    ansible.builtin.debug:
+      msg: "Hi {{person}}, {{wishes}}" 
