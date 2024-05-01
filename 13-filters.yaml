@@ -56,3 +56,18 @@
   - name: after convert dict to items
     ansible.builtin.debug:
       msg: "To print list items {{ my_dict | dict2items }}"
+
+- name: list to dictionary
+  hosts: localhost
+  vars:
+  - {'key': 'course', 'value': 'devops'}, 
+  - {'key': 'trainer', 'value': 'siva kumar'}, 
+  - {'key': 'duration', 'value': '120 hrs'}
+  tasks:
+  - name: before convert list to dict
+    ansible.builtin.debug:
+      msg: "To print list items {{vars}}"
+  
+  - name: after convert list to dict
+    ansible.builtin.debug:
+      msg: "To print dict items {{ vars | items2dict }}"
