@@ -73,7 +73,7 @@
     ansible.builtin.debug:
       msg: "To print dict items {{ my_list | items2dict }}"
 
-name: list to dictionary
+- name: list to dictionary
   hosts: localhost
   vars:
     my_list:
