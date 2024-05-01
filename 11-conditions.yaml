@@ -1,7 +1,7 @@
 - name: conditions
   hosts: localhost
   become: yes
-  vars:
+  tasks:
   - name: To check the user the exist or not.
     ansible.builtin.command: id expense
     register: USER
