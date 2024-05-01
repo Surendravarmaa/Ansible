@@ -72,3 +72,19 @@
   - name: after convert list to dict
     ansible.builtin.debug:
       msg: "To print dict items {{ my_list | items2dict }}"
+
+name: list to dictionary
+  hosts: localhost
+  vars:
+    my_list:
+    - Devops 
+    - SIva Kumar 
+    - 120 hrs
+  tasks:
+  - name: before convert list to dict
+    ansible.builtin.debug:
+      msg: "To print list items {{my_list}}"
+  
+  - name: after convert list to dict
+    ansible.builtin.debug:
+      msg: "To print dict items {{ my_list | items2dict }}"
