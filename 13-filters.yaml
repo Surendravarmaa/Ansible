@@ -1,4 +1,4 @@
-- name: filters
+- name: default value
   hosts: localhost
   tasks:
   - name: print default value
