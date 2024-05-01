@@ -61,8 +61,8 @@
   hosts: localhost
   vars:
     my_list:
-    - {'key': 'course', 'value': 'devops'}, 
-    - {'key': 'trainer', 'value': 'siva kumar'}, 
+    - {'key': 'course', 'value': 'devops'} 
+    - {'key': 'trainer', 'value': 'siva kumar'} 
     - {'key': 'duration', 'value': '120 hrs'}
   tasks:
   - name: before convert list to dict
