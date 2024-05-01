@@ -60,14 +60,15 @@
 - name: list to dictionary
   hosts: localhost
   vars:
+    my_list:
     - {'key': 'course', 'value': 'devops'}, 
     - {'key': 'trainer', 'value': 'siva kumar'}, 
     - {'key': 'duration', 'value': '120 hrs'}
   tasks:
   - name: before convert list to dict
     ansible.builtin.debug:
-      msg: "To print list items {{vars}}"
+      msg: "To print list items {{my_list}}"
   
   - name: after convert list to dict
     ansible.builtin.debug:
-      msg: "To print dict items {{ vars | items2dict }}"
+      msg: "To print dict items {{ my_list | items2dict }}"
